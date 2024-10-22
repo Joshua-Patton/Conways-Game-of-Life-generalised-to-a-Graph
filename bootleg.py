@@ -12,7 +12,7 @@ def stepsb4_sizzleout(G,dead_list_steps):
             return dead_list[0]
     return -1
 
-file_name = "./data.csv"
+file_name = "./data1.csv"
 file = open(file_name,'w+',newline='')
 writer = csv.writer(file)
 writer.writerow(["trial","edos_renyi p","poss of initial dead","steps till all dead","clustering","assortativity coefficent"])
